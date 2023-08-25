@@ -13,7 +13,7 @@ export default function pizza(){
                     <div className="flex flex-col gap-2 w-[350px] h-[500px] border border-black rounded-xl items-center bg-slate-200">
                         {food.compo.map((el) =>(
                             <>
-                            <div className="flex flex-col gap-2 w-[350px] h-[500px] border border-black rounded-xl items-center bg-slate-200 relative p-5">
+                            <div className="flex flex-col gap-2 w-[350px] h-[500px] border border-black rounded-xl items-center bg-slate-200 relative">
                                 <Link href={`/products/collection/${food.id}`}>
                                 <div className="w-[300px] h-[300px] border-b-2 border-black mb-1 flex justify-center items-center">
                                 <img src={el.image} className="object-contain mt-3 hover:rotate-45 transition-all duration-200 mb-2"/>
