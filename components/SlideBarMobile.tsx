@@ -17,7 +17,7 @@ const SlideBarMobile = () => {
                 <div>
                     <img src='/menu.png' />
                 </div>
-                <div className={`absolute top-0  h-screen w-[300px] sm:w-[400px] rounded-r bg-black text-white border-r border-yellow-400 shadow-2xl ${show === true ? `left-0 opacity-100` : `-left-full opacity-0`} transition-all duration-300`}>
+                <div className={`absolute top-0 h-screen w-[300px] sm:w-[400px] rounded-r bg-black text-white border-r border-yellow-400 shadow-2xl ${show === true ? `left-0 opacity-100` : `-left-full opacity-0`} transition-all duration-300`}>
                     <div className='absolute top-2 right-2 cursor-pointer' onClick={() => setShow(false)}>
                         <img src='/close.png' />
                     </div>
@@ -60,7 +60,7 @@ const SlideBarMobile = () => {
                 ))}
                 </div>
             </div>
-            <div className='absolute bottom-4 left-4'>
+            <div className='absolute bottom-[70px] sm:bottom-[50px] left-4'>
         <div className='flex flex-row gap-3'>
             <Link href="https://www.facebook.com/borago.restaurante/" target='_black' className='w-fit p-1 bg-slate-300 rounded-full hover:bg-yellow-400 transition-all duration-200'>
                 <img src='/facebook (3).png' />
@@ -73,7 +73,7 @@ const SlideBarMobile = () => {
             </Link>
         </div>
         </div>
-        <div className='absolute bottom-4 right-4'>
+        <div className='absolute bottom-[70px] sm:bottom-[50px] right-4'>
             <div className='flex flex-row gap-2'>
             <Link href="/contact" className='w-fit p-1 bg-slate-300 rounded-full hover:bg-yellow-400 transition-all duration-200' title='Contact'>
                 <img src='/support.png' />

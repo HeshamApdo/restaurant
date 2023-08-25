@@ -2,8 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 export default function Home() {
   return (
-    <main className="bg-black w-screen h-screen">
-      <div className='flex flex-col gap-10 lg:flex-row sm:gap-20 md:gap-10 justify-center items-center text-center'>
+    <main className="bg-black w-screen h-screen justify-center items-center">
+      <div className='flex flex-col gap-10 lg:flex-row sm:gap-20 md:gap-10 justify-center items-center text-center w-screen h-screen'>
         <div className='w-[400px] p-2 h-[200px] md:w-[500px] sm:w-[400px] sm:h-[200px] md:h-[250px] lg:w-[700px] lg:h-[650px] xl:w-[800px] xl:h-[700px] flex justify-center items-center mt-[100px] sm:mt-[60px] xl:mt-0'>
           <img src='/homPage3.png' className='object-contain'/>
         </div>
