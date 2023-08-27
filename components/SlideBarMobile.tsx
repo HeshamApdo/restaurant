@@ -60,7 +60,7 @@ const SlideBarMobile = () => {
                 ))}
                 </div>
             </div>
-            <div className='absolute bottom-[70px] sm:bottom-[50px] left-4'>
+            <div className='absolute bottom-[30px] sm:bottom-[20px] left-4'>
         <div className='flex flex-row gap-3'>
             <Link href="https://www.facebook.com/borago.restaurante/" target='_black' className='w-fit p-1 bg-slate-300 rounded-full hover:bg-yellow-400 transition-all duration-200'>
                 <img src='/facebook (3).png' />
@@ -73,7 +73,7 @@ const SlideBarMobile = () => {
             </Link>
         </div>
         </div>
-        <div className='absolute bottom-[70px] sm:bottom-[50px] right-4'>
+        <div className='absolute bottom-[30px] sm:bottom-[20px] right-4'>
             <div className='flex flex-row gap-2'>
             <Link href="/contact" className='w-fit p-1 bg-slate-300 rounded-full hover:bg-yellow-400 transition-all duration-200' title='Contact'>
                 <img src='/support.png' />
